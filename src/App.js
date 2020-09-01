@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import useWebAnimations from "@wellyshen/use-web-animations";
-
-// import UseApp from '@wellyshen/use-web-animations';
-import { useRef } from 'react';
 function App() {
   var sceneryFrames =   [
     { transform: 'translateX(100%)' },
