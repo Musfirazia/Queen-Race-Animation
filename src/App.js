@@ -63,7 +63,7 @@ function App() {
 
   
 
-  React.useEffect(() => { 
+  useEffect(() => { 
 
     alice.getAnimation().updatePlaybackRate(0.3);
     alice.getAnimation().duration = 600;
