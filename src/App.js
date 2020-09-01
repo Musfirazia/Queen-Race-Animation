@@ -113,9 +113,9 @@ function App() {
       adjustBackgroundPlayback();
     }
   
-    
 
-  }, [ alice.animate]);
+  }, [ alice.animate,alice,background1,background2,foreground1,foreground2]);    
+
 
   return (
     <div className="App">
